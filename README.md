@@ -18,7 +18,7 @@ heroku buildpacks:clear
 heroku buildpacks:add -i 1 jontewks/puppeteer
 
 # fonts
-heroku buildpacks:add -i 2 https://github.com/gnuletik/puppeteer-heroku-buildpack-fonts
+heroku buildpacks:add -i 2 https://github.com/anandtripathi5/puppeteer-heroku-buildpack-fonts
 
 # other buildpack
 heroku buildpacks:add -i 3 heroku/nodejs
