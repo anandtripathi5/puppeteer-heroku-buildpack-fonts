@@ -4,7 +4,7 @@ Heroku buildpack adding missing fonts for [jontewks/puppeteer-heroku-buildpack](
 
 This buildpack add 22MBs of fonts to the built Heroku slug size so it is not added by default.
 
-It aims to support Chinese, Korean, and Japanese characters.
+It aims to support (Chinese, Japanese, Arabic, Hebrew, Thai, Hindi and a few others). It will support all the language that [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) docker image supports
 If you are facing missing character sets, feel free to open a PR.
 
 ## Usage
